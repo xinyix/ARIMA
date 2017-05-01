@@ -39,6 +39,7 @@ Look at some basic behaviour of the series
 > plot(AirPassengers)
 ```
 <p style='text-align:center'><img src='https://github.com/xinyix/ARIMA/blob/master/data.jpg?raw=true'></p>
+
  Now we sketch out the general trend by aggregating the series according to years
  ```
  > plot(aggregate(AirPassengers,FUN=mean))
