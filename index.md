@@ -38,7 +38,7 @@ Look at some basic behaviour of the series
 ## plot the series
 > plot(AirPassengers)
 ```
-![original resid dist](https://github.com/xinyix/ARIMA/blob/master/data.jpg?raw=true)
+<p style='text-align:center'><img src='https://github.com/xinyix/ARIMA/blob/master/data.jpg?raw=true'></p>
 
 ### Make Inferences
 
