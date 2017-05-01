@@ -24,6 +24,7 @@ We first load and print our chosen time series data
 1960 417 391 419 461 472 535 622 606 508 461 390 432
 ```
 
+### Make Inferences
 Look at some basic behaviour of the series
 ```
 ## make sure its a time series object
@@ -46,6 +47,10 @@ Look at some basic behaviour of the series
  ```
  <p style='text-align:center'><img src='https://github.com/xinyix/ARIMA/blob/master/aggregate_by_year.jpg?raw=true'></p>
 
-### Make Inferences
-
+We can also pull out some details of the seasonal effects using boxplot across a single cycle (12 month in this case)
+```
+> boxplot(AirPassengers~cycle(AirPassengers))
+```
+ <p style='text-align:center'><img src='https://github.com/xinyix/ARIMA/blob/master/boxplot_for_seasonality.jpg?raw=true'></p>
+ 
 ### Try Various ARIMA Models
